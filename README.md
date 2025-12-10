@@ -40,9 +40,13 @@ Das Projekt ist ein digitaler Planer speziell für den Studiengang **IMUK**. Die
 ## Installation & Nutzung
 
 ```bash
-# Repository klonen
-git clone <Repository-URL>  # TODO: Repository-URL ergänzen
-cd <Projektordner>          # TODO: Ordnername ergänzen
+1. Repository klonen
+git clone https://github.com/natiesnr/Projektarbeit_JuliaBraig_NatalieEisner.git
+
+2. Projekt in der IDE öffnen
+
+3. Hauptklasse ausführen
+
 
 
 
