@@ -1,5 +1,8 @@
 # Programmiertechnik Projekt – IMUK Studienplaner
 
+Julia Braig Matrikel-Nr 387716
+Natalie Eisner Matrikel-Nr 398886
+
 ## Projektbeschreibung
 Das Projekt ist ein digitaler Planer speziell für den Studiengang **IMUK**. Die Anwendung soll Studierenden helfen, ihre Module, Aufgaben, Termine und Noten übersichtlich an einem Ort zu verwalten. Die Benutzeroberfläche orientiert sich dabei an den grundlegenden Funktionen von Moodle – jedoch in einer vereinfachten und übersichtlichen Form.
 
