@@ -1,5 +1,9 @@
 package studentenPlaner;
 
+import javax.swing.*;
+
 public class Faecherauswahl {
-    public String name;
+
+    private JPanel hauptPanel;
+    private JLabel halloLabel;
 }
