@@ -5,33 +5,69 @@ Julia Braig Matrikel-Nr 387716
 
 Natalie Eisner Matrikel-Nr 398886
 
+
 ## Projektbeschreibung
 Das Projekt ist ein digitaler Planer speziell für den Studiengang **IMUK**. Die Anwendung soll Studierenden helfen, ihre Module, Aufgaben, Termine und Noten übersichtlich an einem Ort zu verwalten. Die Benutzeroberfläche orientiert sich dabei an den grundlegenden Funktionen von Moodle – jedoch in einer vereinfachten und übersichtlichen Form.
 
-### Hauptfunktionen
 
-#### Fächer- und Modulübersicht
-- Alle IMUK-Module werden in einer Liste oder Kachel-Ansicht dargestellt
-- Auswahl eines Moduls öffnet eine detaillierte Ansicht:
-  - Aufgaben des Moduls anzeigen
-  - Aufgaben als *erledigt* oder *offen* markieren
-  - Möglichkeit, eigene Aufgaben anzulegen
 
-#### Kalenderfunktion
-- Termine wie Abgaben, Prüfungen oder Vorlesungen eintragbar
-- Notizen können an Kalendereinträge gekoppelt werden
-- Anzeige von anstehenden Aufgaben im Kalender
+### **1. Fächer- und Modulübersicht**
 
-#### Notizenbereich
-- Modulspezifische oder allgemeine Notizen erfassen
-- Notizen sortierbar nach Modul, Datum oder Thema
+Alle IMUK-Module werden übersichtlich angezeigt. Studierende können ein Modul auswählen und gelangen zur Detailansicht. Dort lassen sich Aufgaben einsehen, hinzufügen und als *erledigt* oder *offen* markieren. 
+Zentraler Punkt zur Strukturierung des Studiums.
 
-#### Notenverwaltung
+---
+
+### **2. Aufgabenverwaltung**
+
+Alle Aufgaben eines gewählten Moduls werden angezeigt. Nutzer können:
+
+* Aufgaben erstellen
+* Aufgabenstatus ändern (offen/erledigt)
+* Aufgaben bearbeiten oder löschen
+
+So behalten Studierende ihre To-dos stets im Blick.
+
+---
+
+### **3. Wochenplan-Terminverwaltung**
+
+Studierende können Termine direkt in einer Wochenplanstruktur eintragen. Jeder Wochentag (Montag–Freitag/Samstag/Sonntag) hat einen eigenen Bereich für:
+
+* Vorlesungen
+* Abgabefristen
+* Prüfungen
+* sonstige wichtige Termine
+
+Damit entsteht eine klare Wochenübersicht und eine strukturierte Planung.
+
+---
+
+### **4. Notenverwaltung**
 - Noten für jedes Modul eintragbar
 - Eingabevalidierung:
   - nur erlaubte Werte → **1 bis 5**
   - bei falscher Eingabe erscheint eine **Fehlermeldung**
-- Optional: automatische Berechnung von Durchschnitts- oder Abschlussnoten
+- Optional: automatische Berechnung von Durchschnittsnoten
+
+
+---
+
+### **5. Navigationsstruktur zwischen den GUI-Ansichten**
+
+Die Java-GUI besteht aus mehreren Ansichten, die per Buttons verbunden sind:
+
+* **Fächerauswahl → Aufgaben & Module**
+* **Module → Wochenplan/Termine**
+* **Module/Termine → Notenverwaltung**
+
+Dies schafft einen intuitiven Workflow, ähnlich einem realen Organizer.
+
+---
+
+### **6. Datenvalidierung & Fehlermeldungen**
+
+Eingaben in allen Bereichen (z. B. Noten, Termine) werden überprüft. Fehlerhafte Eingaben erzeugen klare Fehlermeldungen, sodass die Daten korrekt bleiben.
 
 ---
 
@@ -40,7 +76,6 @@ Das Projekt ist ein digitaler Planer speziell für den Studiengang **IMUK**. Die
 - Swing GUI
 - Git (Versionierung)
 
----
 
 ## Installation & Nutzung
 
@@ -51,6 +86,10 @@ git clone https://github.com/natiesnr/Projektarbeit_JuliaBraig_NatalieEisner.git
 2. Projekt in der IDE öffnen
 
 3. Hauptklasse ausführen
+
+
+
+
 
 
 
