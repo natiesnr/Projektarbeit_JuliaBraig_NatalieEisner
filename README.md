@@ -1,4 +1,4 @@
-# Programmiertechnik Projekt – IMUK Studienplaner
+# Programmiertechnik Projekt – IMUK Studienplaner - Pass The Test
 
 Julia Braig Matrikel-Nr 387716
 
