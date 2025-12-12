@@ -1,4 +1,4 @@
-package studentenPlaner;
+package PassTheTest;
 
 public class Startseite {
 }

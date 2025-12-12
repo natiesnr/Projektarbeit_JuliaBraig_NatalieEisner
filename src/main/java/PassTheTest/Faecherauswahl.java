@@ -1,4 +1,4 @@
-package studentenPlaner;
+package PassTheTest;
 
 import javax.swing.*;
 
